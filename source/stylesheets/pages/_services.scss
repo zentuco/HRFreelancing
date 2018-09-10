@@ -1,3 +1,4 @@
+
 .company-service-title-container {
   margin-top: 140px;
   width: 100%;
@@ -42,4 +43,66 @@
       }
     }
   }
+}
+
+.company-service-title-header {
+  width: 100%;
+  text-align: center;
+}
+
+.company-service-details-paragraph {
+  width: 100%;
+  max-width: 640px;
+  font-size: 14px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.active {
+  padding-left: 30px !important;
+  padding-right: 0 !important;
+  border-bottom: 2px solid #0971c7;
+  color: #0971c7;
+  i {
+    opacity: 1 !important;
+  }
+}
+
+.company-services-details-services-wrapper {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+  .company-services-details-list-wrapper {
+    margin-top: 140px;
+  }
+}
+
+.services-list-items {
+    background: #25b2f3;
+    color: rgb(255,255,255);
+    .services-list-item-header {
+      text-align: center;
+    }
+    .services-list-item-content-wrapper {
+      text-align: center;
+      font-size: 13px;
+      width: 100%;
+      float: left;
+      height: 200px;
+
+      .services-list-item-content {
+        width: 100%;
+        margin: 60px auto 0px auto;
+        display: inline-block;
+        height: auto;
+        margin-bottom: 30px;
+        max-width: 350px;
+        text-align:left;
+      }
+    }
+}
+
+#middle-service-list-item {
+  border-left: 1.2px solid rgba(255, 255, 255, 0.3);
+  border-right: 1.2px solid rgba(255, 255, 255, 0.3);
 }
