@@ -18,14 +18,30 @@
 }
 
 .home-banner-content {
-  justify-content: center;
-  color: #FFF;
-  font-weight: lighter;
-  font-size: 3rem;
-}
+    justify-content: center;
+    color: #FFF;
+    font-weight: lighter;
+    font-size: 3rem;
+  }
 
-.home-banner-middle-item {
-  font-size: 100;
-  font-style: italic;
-  font-size: 3rem;
+  .home-banner-middle-item {
+    font-size: 100;
+    font-style: italic;
+    font-size: 3rem;
+  }
+
+@media (max-width: $screen-xs-min) {
+
+  .home-banner-content {
+    justify-content: center;
+    color: #FFF;
+    font-weight: lighter;
+    font-size: 2rem;
+  }
+
+  .home-banner-middle-item {
+    font-size: 100;
+    font-style: italic;
+    font-size: 2rem;
+  }
 }
