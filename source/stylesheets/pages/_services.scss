@@ -102,6 +102,29 @@
     }
 }
 
+.services-details-icons {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  .service-icon {
+    height: 40px;
+    width: auto;
+  }
+  #heroku {
+      height: 58px;
+  }
+  #wordpress {
+    height: 55px;
+  }
+  #bootstrap {
+    height: 50px;
+    padding-left: 10px;
+  }
+  #react {
+    padding-right: 10px;
+  }
+}
+
 #middle-service-list-item {
   border-left: 1.2px solid rgba(255, 255, 255, 0.3);
   border-right: 1.2px solid rgba(255, 255, 255, 0.3);
