@@ -1,0 +1,140 @@
+
+.company-service-title-container {
+  margin-top: 140px;
+  width: 100%;
+}
+
+.company-services-category-tabs {
+  margin-bottom: 100px;
+  width: 100%;
+  ul {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    li {
+
+      text-transform: uppercase;
+      margin: 0 10px;
+      padding-bottom: 20px;
+      line-height: 18px;
+      a {
+        position: relative;
+        transition: all 0.5s ease;
+        padding: 0 15px;
+        i {
+          margin-right: 10px;
+          position: absolute;
+          left: 0px;
+          top: 0;
+          opacity: 0;
+          transition: opacity 0.5s ease;
+        }
+        &:hover {
+          padding-left: 30px;
+          padding-right: 0;
+          border-bottom: 2px solid #0971c7;
+          color: #0971c7;
+          i {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.company-service-title-header {
+  width: 100%;
+  text-align: center;
+}
+
+.company-service-details-paragraph {
+  width: 100%;
+  max-width: 640px;
+  font-size: 14px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.active {
+  padding-left: 30px !important;
+  padding-right: 0 !important;
+  border-bottom: 2px solid #0971c7;
+  color: #0971c7;
+  i {
+    opacity: 1 !important;
+  }
+}
+
+.company-services-details-services-wrapper {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+  background: #25b2f3;
+  .company-services-details-list-wrapper {
+    margin-top: 140px;
+
+  }
+}
+
+.services-list-items {
+
+    color: rgb(255,255,255);
+    .services-list-item-header {
+      text-align: center;
+    }
+    .services-list-item-content-wrapper {
+      text-align: center;
+      font-size: 13px;
+      width: 100%;
+      float: left;
+      height: 200px;
+      .services-list-item-content {
+        width: 100%;
+        margin: 60px auto 0px auto;
+        display: inline-block;
+        height: auto;
+        margin-bottom: 30px;
+        max-width: 350px;
+        text-align:left;
+      }
+    }
+}
+
+.services-details-icons {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  .service-icon {
+    height: 40px;
+    width: auto;
+  }
+  #heroku {
+      height: 58px;
+  }
+  #wordpress {
+    height: 55px;
+  }
+  #bootstrap {
+    height: 50px;
+    padding-left: 10px;
+  }
+  #react {
+    padding-right: 10px;
+  }
+}
+
+.contact-us-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+#middle-service-list-item {
+  border-left: 1.2px solid rgba(255, 255, 255, 0.3);
+  border-right: 1.2px solid rgba(255, 255, 255, 0.3);
+}
