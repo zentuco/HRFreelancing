@@ -72,13 +72,15 @@
   width: 100%;
   height: auto;
   margin-top: 0px;
+  background: #25b2f3;
   .company-services-details-list-wrapper {
     margin-top: 140px;
+
   }
 }
 
 .services-list-items {
-    background: #25b2f3;
+
     color: rgb(255,255,255);
     .services-list-item-header {
       text-align: center;
@@ -89,7 +91,6 @@
       width: 100%;
       float: left;
       height: 200px;
-
       .services-list-item-content {
         width: 100%;
         margin: 60px auto 0px auto;
