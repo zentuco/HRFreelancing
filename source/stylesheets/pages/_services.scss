@@ -126,6 +126,14 @@
   }
 }
 
+.contact-us-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
 #middle-service-list-item {
   border-left: 1.2px solid rgba(255, 255, 255, 0.3);
   border-right: 1.2px solid rgba(255, 255, 255, 0.3);
