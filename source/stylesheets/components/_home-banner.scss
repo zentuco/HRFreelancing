@@ -11,16 +11,21 @@
   width: 100vw;
 }
 
-.home-banner-content-header {
-  color: #FFF;
-
-  img {
-    -webkit-filter: grayscale(1) invert(1);
-    filter: grayscale(1) invert(1);;
-  }
+.home-banner-content-logo {
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);;
+  padding-bottom: 70px;
 }
 
 .home-banner-content {
-  display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  color: #FFF;
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+.home-banner-middle-item {
+  font-size: 100;
+  font-style: italic;
+  font-size: 3rem;
 }
