@@ -1,13 +1,13 @@
 .button {
-  color: black;
+  color: $primary-color;
   padding: 7px 15px;
   border-radius: 25px;
-  border: 2px solid black;
+  border: 2px solid $primary-color;
   transition: background 0.8s ease;
 }
 
 .button:hover {
-  background: black;
+  background: $primary-color;
   color: white;
 }
 
