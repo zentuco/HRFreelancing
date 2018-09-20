@@ -4,6 +4,14 @@
   width: 100%;
 }
 
+.company-service-title-header {
+  font-family: Avenir;
+  font-size: 46px;
+  margin-bottom: 35px;
+  color: $primary-color;
+  font-weight: lighter;
+}
+
 .company-services-category-tabs {
   margin-bottom: 100px;
   width: 100%;
@@ -34,8 +42,8 @@
         &:hover {
           padding-left: 30px;
           padding-right: 0;
-          border-bottom: 2px solid #0971c7;
-          color: #0971c7;
+          border-bottom: 2px solid $primary-color;
+          color: $primary-color;
           i {
             opacity: 1;
           }
@@ -61,8 +69,8 @@
 .active {
   padding-left: 30px !important;
   padding-right: 0 !important;
-  border-bottom: 2px solid #0971c7;
-  color: #0971c7;
+  border-bottom: 2px solid $primary-color;
+  color: $primary-color;
   i {
     opacity: 1 !important;
   }
