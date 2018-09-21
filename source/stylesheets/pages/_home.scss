@@ -1,17 +1,41 @@
-// #home {
-//   background-color: #D23333;
-//   color: white;
-//   height: 100vh;
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-around;
-//   text-align: center;
-//   p {
-//     margin-top: 1.5em;
-//   }
-//   a {
-//     color: rgba(0,0,0,0.4);
-//     font-weight: bold;
-//     font-size: 16px;
-//   }
-// }
+.nakama-services {
+  height: 60vh;
+  background-color: $blue;
+}
+
+#nakama-service-wrapper {
+  height: 200px;
+}
+
+#nakama-service-wrapper:hover > .nakama-service-header {
+  top: -100px;
+  transition: all 400ms 200ms;
+  opacity: 0;
+}
+
+#nakama-service-wrapper:hover .nakama-service-hover {
+  top: 0;
+  transition: all 400ms 200ms;
+  opacity: 1;
+}
+
+.nakama-service-header {
+  max-height: 200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transition: all 400ms 200ms;
+  float: left;
+}
+
+.nakama-service-hover {
+  height: 200px;
+  position: absolute;
+  left: 0;
+  top: 200px;
+  width: 100%;
+  transition: all 400ms 200ms;
+  opacity: 0;
+  // overflow: hidden;
+}
